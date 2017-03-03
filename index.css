@@ -1,0 +1,103 @@
+.mui-appbar, .mui-panel{
+  margin-bottom: 50px;
+}
+
+.container{
+  display: block;
+  margin-bottom: 30px;
+}
+
+.mui--text-display1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mui-appbar{
+  box-shadow: 0px 1pt 10px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 3;
+}
+
+input{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+  width: 80%;
+  margin-top: 15px;
+}
+
+input::-webkit-input-placeholder{
+  color: rgba(255, 255, 255, 0.57);
+}
+
+.box{
+  margin-top: 100px;
+}
+
+#bread ul li a {
+  display: block;
+  float: left;
+  height: 20px;
+  background: #26A69A;
+  text-align: center;
+  padding: 20px 40px 20px 80px;
+  position: relative;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#bread ul li a:after {
+  content: "";
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 40px solid #26A69A;
+  position: absolute; right: -40px; top: 0;
+  z-index: 1;
+}
+
+#bread ul li {
+  display: inline;
+}
+
+#bread ul li a:before {
+  content: "";
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 40px solid white;
+  position: absolute; left: 0; top: 0;
+}
+
+#bread ul li:first-child a {
+  border-top-left-radius: 5px; border-bottom-left-radius: 5px;
+}
+#bread ul li:first-child a:before {
+  display: none;
+}
+
+#bread ul li:last-child a {
+  padding-right: 80px;
+  border-top-right-radius: 5px; border-bottom-right-radius: 5px;
+}
+
+#bread ul li:last-child a:after {
+  display: none;
+}
+
+#bread ul li a:hover {
+  background: #00897B;
+}
+
+#bread ul li a:hover:after {
+  border-left-color: #00897B;
+}
+
+#bucket{
+  margin-bottom: 50px;
+}
+
+
+
